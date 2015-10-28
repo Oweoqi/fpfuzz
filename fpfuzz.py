@@ -17,7 +17,7 @@ r = requests.get(script_input.url)
 
 for line in f:
 	print r.status_code,
-	print script_input.site + line
+	print script_input.url + line
 
 f.close()
 
